@@ -28,6 +28,31 @@
         </div>
         
     </section>
+    <section id="about">
+        <div id="about_left_col">
+            <img src="images/about.png">
+        </div>
+        <div id="about_right_col">
+            <div id="about_text">
+                <h1>About us</h1>
+                <div id="square1"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam ducimus atque accusantium consequatur tenetur facere corrupti, 
+                    dolor accusamus error dicta aspernatur cupiditate esse repellat quam eligendi 
+                    quas? Recusandae id, aperiam perferendis officiis cupiditate sed provident, 
+                    quia adipisci aliquid placeat ab.
+                </p>
+                <div id="square2"></div>
+                <div id="longer_line"></div>
+                <div id="shorter_line"></div>
+                <h1 id="phrase">
+                    "Learning is not atteined by chance,<br>
+                    it must be sought for with ardor and<br>attended to with diligence"
+                </h1>
+            </div>
+        </div>
+
+    </section>
     <nav id="side_nav">
         <ul>
             <li><a href="">HOME</a></li>
@@ -38,6 +63,23 @@
             <li><a href="">CONTACT</a></li>
 
         </ul>
+        <div id="container_menu_button">
+            <img src="images/menu.png" >
+        </div>
+        <script>
+            var container_menu_button = document.getElementById("container_menu_button");
+            var side_nav = document.getElementById("side_nav");
+
+            side_nav.style.right = "-250px";
+            container_menu_button.onclick = function(){
+                if(side_nav.style.right == "-250px"){
+                    side_nav.style.right = "0";
+                }
+                else{
+                    side_nav.style.right = "-250px"
+                }
+            }
+        </script>
     </nav>
 </body>
 </html>

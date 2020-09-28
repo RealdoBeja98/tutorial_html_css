@@ -76,24 +76,101 @@ p{
     width: 250px;
     height: 100vh;
     position: fixed;
-    right: 0;
+    right: -250px;
     top: 0;
     background: #f67c92;
     z-index: 2;
+    transition: .5s;
+}
+ul li {
+    list-style-type: none;
+}
+a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    line-height: 70px;
+}
+ul{
+    margin-top: 25px;
+}
+/*best way to size and resize an img is to include the img inside a div */
+#container_menu_button{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 33px;
+    right:60px;
+    cursor: pointer;
+}
+#container_menu_button img{
+    width: 100%;
+    height: auto;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*<----about---->*/
+/*<---flex e ndan ne kolona ne ketu e kemi ndare ne dy kolona-->*/
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#about_left_col{
+    flex-basis: 50%;
+}
+#about_left_col img{
+    width: 100%;
+}
+#about_right_col{
+    flex-basis: 50%;
+    text-align: right;
+}
+#about_text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+#square1{
+    height: 12px;
+    width: 12px;
+    background-color: #f67c92;
+    margin: 25px 0 25px 480px;
+    
+}
+#square2{
+    width: 15px;
+    height: 15px;
+    background-color: #f67c92;
+    margin-top: 50px;
+    margin-left: 480px;
+}
+#longer_line{
+    width: 80px;
+    height: 1px;
+    background-color: #f67c92;
+    margin-top: 11px;
+    margin-left: 416px;
+}
+#shorter_line{
+    width: 60px;
+    height: 1px;
+    background-color: #f67c92;
+    margin-top: 7px;
+    margin-left: 436px;
+}
+#about_text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+#phrase{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
 
 
 
