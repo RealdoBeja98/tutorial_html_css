@@ -42,6 +42,11 @@ h1{
     font-weight: bold;
     cursor: pointer; /* Adds the little thong of cursor when u go above the link*/
 }
+.common-btn:hover{
+    background-color: #f67c92;
+    background-image: none;
+    color: white;
+}
 p{
     font-size: 15px;
     line-height: 18px;
@@ -172,11 +177,59 @@ ul{
     font-style: italic;
 }
 
-
-
-
-
-
+/*<----features---->*/
+#features{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0;
+    margin-left: 70px;
+}
+#first_col{
+    flex-basis: 25%;
+    margin-left: 50px;
+}
+#second_col{
+    flex-basis: 25%;
+    margin-left: 40px;
+}
+#third_col{
+    flex-basis: 25%;
+    margin-left: 120px;
+}
+#features img{
+    width: 100px;
+    margin-left: 160px;
+    margin-right: 150px;
+    margin-bottom: 15px;
+}
+#text_pic-1{
+    text-align: center;
+    margin-left: 0px;
+}
+#text_pic-2{
+    text-align: center;
+    margin-left: 90px;
+}
+#text_pic-3{
+    text-align: center;
+}
+.feature-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer; /* Adds the little thong of cursor when u go above the link*/
+    margin: 100px 0 50px 715px;
+}
+.feature-btn:hover{
+    background-image: none;
+    background-color: #f67c92;
+    color: white;
+}
 
 
 
